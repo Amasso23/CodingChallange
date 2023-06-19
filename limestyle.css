@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('limebackground.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}   
+
+.header-title, main {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 130px;
+  margin-top: 90px;
+}
+
+.header-title {
+  color: lime;
+  margin-bottom: 5px;
+}
+
+nav {
+  color: black;
+  background-color: lime;
+  padding: 10px 40px;
+  width: auto;
+  margin: auto 80px;
+  border-radius: 20px;
+}
+
+a {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 1px 7px;
+}
+
+.riquadro {
+  background-color: rgb(0,0,0,0.5);
+  width: 65%;
+  height: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+section {
+  color: white;
+  margin: 15px 80px;
+}
+
+.scooter-name {
+  display: inline-block;
+}
+
+.green {
+  height: 20px;
+  width: 300px;
+  background-color: lime;
+  border: lime;
+}
+
+.yellow {
+  height: 20px;
+  width: 200px;
+  background-color: #F5B453;
+  border: #F5B453;
+}
+
+.red {
+  height: 20px;
+  width: 50px;
+  background-color: #ef1f1f;
+  border: #ef1f1f;
+}
+
+.border-radius {
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+hr {
+  margin-top: 3px;
+}
+
+span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+span::before {
+  content: "\21A6";
+}
+
